@@ -1,137 +1,75 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="de">
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Unterwebseite_Immos</title>
-<link rel="stylesheet" href="villa.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=egde">
+  <title> Spektakuläre Immobilien </title>
+  <link href="Immobilien.css" rel="stylesheet">
 
-<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-<script src="script.js" defer></script>
 </head>
 <body>
-<nav class="nav">
-<i class="uil uil-bars navOpenBtn"></i>
-<a href="#" class="logo">Immo+</a>
-<ul class="nav-links">
-<i class="uil uil-times navCloseBtn"></i>
-<li><a href="#">Home</a></li>
-<li><a href="#">Immobilien</a></li>
-<li><a href="#">About Us</a></li>
-</ul>
-<i class="uil uil-search search-icon" id="searchIcon"></i>
-<div class="search-box">
-<i class="uil uil-search search-icon"></i>
-<input type="text" placeholder="Search here..." />
+  <img class="header-image" src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg">
+<div class="container">
+  <div class="logo">
+    <a href="index.html">
+      <img class="logo" src='https://i.postimg.cc/F1bMRD7q/IMG-0538.png'>
+    </a>
+    <div class="nav">
+    <a class="menu-link" href="villa.html">Immobilien</a>
+    <a class="menu-link" href="">Anmelden</a>
+  </div>
 </div>
-</nav>
+</div>
+
+<h1 class="headline"> Wo Eleganz auf Exklusivität trifft: <span class="Gray"> Die spektakulärsten Immobilien. </span> </h1>
+
+<a class="underline button" href="#" onclick="scrollToSection('angebote')">Erfahre mehr</a>	
+
+	
+<h2> Immoblilien  </h2> 
+
+<div class="description-section">
 
 
-        <section class="mitte">
-		<div class="villa">
-                <img src="https://www.architekt-hshml.de/media/images/IMG_3625.original.jpg" alt="Villa 1">
-                <h2>Villa am See</h2>
-                <p>Preis: $2,500,000</p>
-                <p>Luxuriöse Villa mit Blick auf einen malerischen See.</p>
-            </div>
-            
-            <div class="villa">
-              <img src="https://img.freepik.com/fotos-premium/luxurioese-strandvilla-mit-infinity-pool-und-atemberaubendem-meerblick_124507-109304.jpg" alt="Villa 2">
-                <h2>Strandvilla</h2>
-                <p>Preis: $3,200,000</p>
-                <p>Geräumige Strandvilla mit direktem Zugang zum Sandstrand. Diese exklusive Strandvilla bietet einen atemberaubenden Blick auf das Meer, einen Infinity-Pool und luxuriöse Annehmlichkeiten. Genießen Sie Ihren eigenen privaten Rückzugsort am Strand.</p>
-            </div>
-            
-            <div class="villa">
-              <img src="https://img.freepik.com/fotos-premium/oceanfront-oasis-atemberaubende-strandvilla-mit-panoramablick_974613-2427.jpg" alt="Villa 3">
-                <h2>Strandvilla mit Panoramablick</h2>
-                <p>Preis: $3,800,000</p>
-                <p>Eine elegante Strandvilla mit Panoramablick auf das azurblaue Meer. Diese exquisit gestaltete Villa verbindet modernen Luxus mit der Schönheit der Natur. Entspannen Sie auf Ihrer eigenen Terrasse und lassen Sie sich von der Schönheit der Umgebung verzaubern.</p>
-            </div>
+Willkommen im Reich des Luxus
 
-            <div class="villa">
-           <img src="https://www.myboutiquehotel.com/photos/109058/furaveri-maldives-raa-atoll-381-59193-1110x700.jpg" alt="Villa 4">
-                <h2>Luxusstrandresidenz</h2>
-                <p>Preis: $4,500,000</p>
-                <p>Die ultimative Luxusstrandresidenz mit exklusivem Design und erstklassigen Annehmlichkeiten. Diese Villa bietet nicht nur einen eigenen Strandzugang, sondern auch einen privaten Pool und einen weitläufigen Garten. Erleben Sie unvergleichlichen Luxus direkt am Meer.</p>
-            </div>
-            <div class="villa">
-                <img src="https://example.com/deutschland-villa.jpg" alt="Villa 2">
-                <h2>Luxuriöse Bergvilla</h2>
-                <p>Preis: $5,600,000</p>
-                <p>Geräumige Villa in den deutschen Alpen mit spektakulärem Blick auf die Berge. Diese exklusive Bergvilla bietet moderne Annehmlichkeiten, einen beheizten Infinity-Pool und eine private Sauna. Erleben Sie unvergleichlichen Komfort und Luxus inmitten einer atemberaubenden Naturlandschaft.</p>
-            </div>
-            
-            <div class="villa">
-                <img src="https://example.com/amerika-villa.jpg" alt="Villa 3">
-                <h2>Stilvolle Stadtvilla</h2>
-                <p>Preis: $6,200,000</p>
-                <p>Eine elegante Stadtvilla im Herzen von New York City. Diese exquisit gestaltete Villa vereint historischen Charme mit modernem Luxus. Genießen Sie großzügige Wohnbereiche, eine private Dachterrasse und einen atemberaubenden Blick auf die Skyline.</p>
-            </div>
-            
-            <div class="villa">
-                <img src="https://example.com/schottland-villa.jpg" alt="Villa 4">
-                <h2>Historische Schlossvilla</h2>
-                <p>Preis: $7,500,000</p>
-                <p>Die ultimative Luxusvilla in den schottischen Highlands. Dieses historische Schloss bietet eine einzigartige Mischung aus Eleganz und Geschichte. Entdecken Sie prächtige Zimmer, ausgedehnte Gärten und einen privaten See. Tauchen Sie ein in den Charme und die Schönheit Schottlands.</p>
-            </div>
-            
-            <div class="villa">
-                <img src="https://example.com/exklusive-strandvilla.jpg" alt="Villa 5">
-                <h2>Exklusive Strandvilla</h2>
-                <p>Preis: $8,300,000</p>
-                <p>Eine atemberaubende Strandvilla an der Küste von Kalifornien. Diese exklusive Residenz bietet einen privaten Zugang zum Strand, einen beheizt
-            
+Tauchen Sie ein in eine Welt von unvergleichlichem Stil und raffinierter Eleganz. Unsere exquisiten Residenzen bieten einen exklusiven Einblick in das ultimative Maß an Luxus und Komfort. Vom modernen Stadtpalast über luxuriöse Villen bis hin zu exklusiven Bergresidenzen – jedes unserer Anwesen verspricht ein unvergessliches Erlebnis.
 
-                <p>Diese exklusive Strandresidenz bietet ein Höchstmaß an Luxus und Komfort. Genießen Sie den privaten Strandzugang, den Infinity-Pool und die modernen Annehmlichkeiten dieser erstklassigen Immobilie. Ein Traumhaus direkt am Meer.</p>
-            </div>
-        </section>
-        
-        <footer>
-            <p>Kontaktieren Sie uns für weitere Informationen über diese luxuriösen Villen.</p>
-        </footer>
-    </div>
+Entdecken Sie, wie zeitlose Architektur und anspruchsvolles Design harmonisch miteinander verschmelzen. Ein visuelles Fest für die Sinne erwartet Sie, begleitet von unvergleichlichem Service und erstklassigen Annehmlichkeiten.
 
-    
-    
- 
+Erleben Sie den Luxus in seiner reinsten Form. Willkommen in Ihrer neuen Dimension des Wohnens.
 
+
+</div> 
+
+<h2 id="angebote"> Angebote </h2>
+
+
+<div class="description-section">
+
+Hier finden sie Unsere tollen Angebote.
+
+
+
+</div>
+
+<footer>
+    <p>Kontaktieren Sie uns für weitere Informationen über diese luxuriösen Villen.</p>
+</footer>
 
 <script>
-
-
-  
-
-  function sortVillas() {
-    const gallery = document.querySelector('.gallery');
-    const villas = Array.from(gallery.children);
-
-    villas.sort((a, b) => {
-      const priceA = parseFloat(a.querySelector('p:nth-child(3)').innerText.split('$')[1].replace(',', ''));
-      const priceB = parseFloat(b.querySelector('p:nth-child(3)').innerText.split('$')[1].replace(',', ''));
-
-      if (ascendingOrder) {
-        return priceA - priceB;
-      } else {
-        return priceB - priceA;
+    // JavaScript-Funktion, um zur Angebote-Sektion zu scrollen
+    function scrollToSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
       }
-    });
-
-    villas.forEach(villa => gallery.appendChild(villa));
-
-    ascendingOrder = !ascendingOrder;
-  }
+    }
 
 
-  
-
-
-
-
-</script>
-
+    function navigateToHomePage() {
+    window.location.href = 'index.html';
+  </script>
 </body>
 </html>
-
